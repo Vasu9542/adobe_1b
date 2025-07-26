@@ -44,7 +44,6 @@ Example persona.json:
   "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks"
 }
 
-
 {
   "metadata": {
     "documents": ["doc1.pdf", "doc2.pdf"],
