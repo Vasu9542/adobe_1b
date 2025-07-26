@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "documents": [
+      "Doc1.pdf",
+      "Doc2.pdf",
+      "Doc3.pdf",
+      "Doc4.pdf",
+      "Doc5.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "timestamp": "2025-07-26T04:44:07.126498Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "Doc5.pdf",
+      "page": 15,
+      "section_title": "analytics in health care, education and agricultur...",
+      "importance_rank": 1
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 2,
+      "section_title": "by Patel et al. [10] for offering personalized wit...",
+      "importance_rank": 2
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 5,
+      "section_title": "processing questions of vary- andconvertedintoafor...",
+      "importance_rank": 3
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 3,
+      "section_title": "taking this semester? had a sense of humor). What ...",
+      "importance_rank": 4
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 3,
+      "section_title": "Based on the positive response of students to the ...",
+      "importance_rank": 5
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 9,
+      "section_title": "The tools facilitate instructor assessment and gra...",
+      "importance_rank": 6
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 14,
+      "section_title": "Int. J. New Technol. Res., vol. 3, no. 4, 2017, mo...",
+      "importance_rank": 7
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 6,
+      "section_title": "Figure 2: A Sample Question and Response with the ...",
+      "importance_rank": 8
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 5,
+      "section_title": "unanswered questions at the assessment and to prov...",
+      "importance_rank": 9
+    },
+    {
+      "document": "Doc2.pdf",
+      "page": 4,
+      "section_title": "information Issue 2, April 2017. source without ta...",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Doc5.pdf",
+      "page": 15,
+      "refined_text": "analytics in health care, education and agriculture. Her responsibility with the institute to promote and enhance innovation and researchinterestsincludebigdataanalytics,artificialintelligence,machine entrepreneurshipculture. learningdeeplearning,andsemanticweb. VOLUME12,2024 29647",
+      "importance_rank": 1
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 2,
+      "refined_text": "by Patel et al. [10] for offering personalized with advancements in machine learning, deep learning, career guidance to engineering students. Results indicated 29634 VOLUME12,2024",
+      "importance_rank": 2
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 5,
+      "refined_text": "processing questions of vary- andconvertedintoaformatthatiseasierandmoreeffective ing complexity. Whether users have straightforward forfurtherprocessingsteps.Italsonormalizestherawdatain queriesaboutadmissiondeadlinesorcomplexinquiries thedatasetandreducesthenumberoffeaturesinthefeature regarding academic policies, the chatbot is designed set. This leads to a decrease in the complexity of fitting the to comprehend and respond appropriately. The system datatoeachclassificationmodel. is equipped with an extensive knowledge base and Thepre-processingstepsareexplainedbelow: advancedalgorithmstotackleadiversesetofquestions, providingcomprehensivesupportacrossthecounseling \u2022 Converting to Lowercase: The raw text is changed spectrum. to lowercase to avoid numerous variants of the same \u2022 Implementation and Analysis of Chatbots Using Vari- word, and all the terms, regardless of their casing, are ous Technologies: The implementation of the chatbot standardized/normalized to lowercase so they can be solution is characterized by the use of various tech- countedtogether. nologies to optimize performance and user experience. \u2022 Tokenization: Tokenization is dividing a text stream Technologies such as natural language processing into meaningful elements called tokens. Tokens can be (NLP),machinelearningalgorithms,andpossiblydeep words,sentences,oranyotherpartofthesentence. VOLUME12,2024 29637",
+      "importance_rank": 3
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 3,
+      "refined_text": "taking this semester? had a sense of humor). What is your name? You: My name is Steve. {Anne learns user Questions can be asked in a variety of ways and name - Steve} the training of the chat-bot is simplified if multiple Anne: Nice to meet you Steve. Are you an questions can be mapped to a single response. engineering student? The following questions could all be addressed You: Yes. I am studying mechanical with a common response. engineering. {Anne learns topic \u2013 mechanical engineering} You: What is the first law of thermodynamics? 26 COMPUTERS IN EDUCATION JOURNAL",
+      "importance_rank": 4
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 3,
+      "refined_text": "Based on the positive response of students to the and responses, map multiple questions to a chat-bot and the difficulties encountered in using common response, ask follow-up questions, learn the available training utilities, a new platform and from user input, identify predefined topics and user interface for the chat-bot was developed by respond accordingly, and provide random Dr. Crown (www.crown.panam. edu/chat) as responses for common questions. With this shown in Figure 1. The new Anne G. Neering limited set of capabilities a majority of standard chat-bot was developed to interpret a majority of AIML files could be used with minimal filtering. questions and responses given in existing AIML files. This would enable the engineering chat-bot The developed chat-bot is able to set and make to build onto one of several chat-bot personalities use of any number of defined user variables such available such as Alice. It was determined that as user name, location, age, major, current classes, much of the needed capability of the chat-bot and areas of interest to make the interactions more could be accomplished with a simplified set of personal and targeted to specific learning needs. AIML commands and that existing AIML files The list and use of these defined user variables is could be filtered to remove particular questions flexible by design so that new variables may that make use of infrequently used commands. easily be added as their usefulness becomes The functionality of the developed engineering apparent. An example of Anne using the variables chat-bot includes the ability to respond to \u201cuser name\u201d and \u201ctopic\u201d during interactions is predefined questions, use variables in questions illustrated below. Figure 1: The Anne G. Neering (Engineering) Chat-Bot. You: What is your name? Anne: What mechanical engineering courses are Anne: My name is Anne G. Neering (my parents you",
+      "importance_rank": 5
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 9,
+      "refined_text": "The tools facilitate instructor assessment and grading engineering chat-bot environment forces students as well. to evaluate new knowledge in light of what they already know since they are never certain that Connections between Anne G. Neering and the what is presented is absolutely correct. The legacy cycle as an implementation of HPL were teacher (that is original question author) in this also considered in the development. The idea of case may need to do some learning with the developing an artificial intelligence for the course student and the students will be an active content that students are engaged in is a perfect participant in that process. The gap between the environment for creating STAR-Legacy Cycle[13] student and the teacher is perceptibly narrower challenges. Students have an opportunity to view than the gap between the student and the the work of \u201cexperts/students\u201d and gain multiple professor. perspectives. The \u201cresearch and revise\u201d phase is simulated with the evaluation tools. The \u201cgo The interactive Chatbot incorporates elements of public\u201d phase is addressed with the opportunity the community centered approach in that students for students to post their responses on a public working to develop both the scope and accuracy website that cites their name and records multiple of Anne\u2019s responses along with the feedback evaluations of their work. These connections with through the evaluation process engages students in elements of the Legacy Cycle provided direction a large ongoing community project. Most of the in the development of this teaching tool and the community interaction involves current students presence of these elements are largely responsible but does extend to students who posted questions for the impact of the tool on student learning. in prior semesters. Anne is also a participant in this community as she represents the combined Conclusions personality of all students. This",
+      "importance_rank": 6
+    },
+    {
+      "document": "Doc5.pdf",
+      "page": 14,
+      "refined_text": "Int. J. New Technol. Res., vol. 3, no. 4, 2017, model, which returns the list of probabilities that the query Art.no.263312. belongstoacertainintent. [15] E.AdamopoulouandL.Moussiades,\u2018\u2018Chatbots:History,technology,and applications,\u2019\u2019Mach.Learn.Appl.,vol.2,Dec.2020,Art.no.100006. Herculesperformsbestamongthefivechatbotsdiscussed [16] S.KhanandM.R.Rabbani,\u2018\u2018ArtificialintelligenceandNLP-basedchatbot in the project because it has sequential modeling designed forIslamicbankingandfinance,\u2019\u2019Int.J.Inf.Retr.Res.,vol.11,no.3, to prevent overfitting training data. Furthermore, it is the pp.65\u201377,Jul.2021. [17] C. Curry and J. D. O\u2019Shea, \u2018\u2018The implementation of a story telling only chatbot with any optimizer applied to it, improving its chatbot,\u2019\u2019Adv.SmartSyst.Res.,vol.1,no.1,p.45,2012. performance. Therefore, it can be concluded that a chatbot [18] V. Tiwari, L. K. Verma, P. Sharma, R. Jain, and P. Nagrath, \u2018\u2018Neural similar to Hercules can be implemented in real-time for networkandNLPbasedchatbotforansweringCOVID-19queries,\u2019\u2019Int. J.Intell.Eng.Informat.,vol.9,no.2,pp.161\u2013175,2021. university/institute counseling. This will be very helpful for [19] S.S.RanavareandR.Kamath,\u2018\u2018ArtificialintelligencebasedChatbotfor the students because it can provide official and accurate placementactivityatcollegeusingDialogFlow,\u2019\u2019OurHeritage,vol.68, results. Furthermore, it can give 24\u00d77 assistance, and the no.30,pp.4806\u20134814,2020. information provided will be uniform. Lastly, students will [20] L.FryerandR.Carpenter,\u2018\u2018Botsaslanguagelearningtools,\u2019\u2019Lang.Learn. Technol.,vol.10,no.3,pp.8\u201314,2006. beabletorelyonreliableinformationsourcestoresolvetheir [21] S.Verma,L.Sahni,andM.Sharma,\u2018\u2018Comparativeanalysisofchatbots,\u2019\u2019 queries. inProc.Int.Conf.Innov.Comput.Commun.(ICICC),2020,pp.67\u201378. FutureworkforintegratingChatGPTintocounselingcould [22] A.N.Mathew,V.Rohini,andJ.Paulose,\u2018\u2018NLP-basedpersonallearning assistant for school education,\u2019\u2019 Int. J. Electr. Comput. Eng. (IJECE), focusonenhancingemotionalintelligence,enablingdynamic vol.11,no.5,pp.4522\u20134530,Oct.2021. learning and adaptation, exploring multimodal interactions, [23] M.Mittal,G.Battineni,D.Singh,T.Nagarwal,andP.Yadav,\u2018\u2018Web-based addressing privacy concerns, ensuring cultural sensitivity, chatbotforfrequentlyaskedqueries(FAQ)inhospitals,\u2019\u2019J.TaibahUniv. Med.Sci.,vol.16,no.5,pp.740\u2013746,Oct.2021. integrating with counseling resources, implementing a con- [24] Q.N.Nguyen,A.Sidorova,andR.Torres,\u2018\u2018Userinteractionswithchatbot tinuous user feedback mechanism, prioritizing accessibility interfacesvs.menu-basedinterfaces:Anempiricalstudy,\u2019\u2019Comput.Hum. features, optimizing scalability for concurrent interactions, Behav.,vol.128,Mar.2022,Art.no.107093. [25] S. Han and M. K. Lee, \u2018\u2018FAQ chatbot and inclusive learning in and conducting rigorous evaluation studies for efficacy massive open online courses,\u2019\u2019 Comput. Educ., vol. 179, Apr. 2022, validation.ThesedevelopmentsaimtomakeChatGPTamore Art.no.104395. 29646 VOLUME12,2024",
+      "importance_rank": 7
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 6,
+      "refined_text": "Figure 2: A Sample Question and Response with the Anne G. Neering Chat-Bot. Table 2: Top Five Unanswered Questions Posed by Students in Various Engineering Courses. Mechanical Vibrations Engineering Thermodynamics Engineering Materials Do you have a boyfriend? What is your favorite What is diffusion coefficient? restaurant? What is a natural Do you know Russian? How can the phenomenon of frequency? diffusion be demonstrated? What are vibrations? What is heat transfer? With the use of a diffusion couple? What is a vibration? What is your favorite beer? How do you calculate planar density? What is frequency? What school did you attend for What are point defects? your bachelors degree? in class students are surprised that she can respond discuss general topics show that most to many of their seemingly random personal and conversations can be addressed with as few as content related questions. After a few semesters 10,000 responses. The authors have discovered in of interactions, Anne gives a response for many of the development of other online instructional the student\u2019s questions. Studies of chat-bots that material that most student questions are repeated COMPUTERS IN EDUCATION JOURNAL 29",
+      "importance_rank": 8
+    },
+    {
+      "document": "Doc3.pdf",
+      "page": 5,
+      "refined_text": "unanswered questions at the assessment and to provide motivation for those beginning of the semester for some of the courses involved. This database automatically managed are shown in Table 2. These questions could be the entry of new questions and ensured that all answered by the instructor, answered by future questions were unique. students who ask the questions, or assigned to students as homework. Over time the list of top The engineering classes and instructors questions give the instructor insight into the participating in the development of Anne\u2019s course topics that interest or are confusing to understanding of engineering concepts are shown students. Several of the questions are personal in Table 1 along with the total number of unique questions for Anne and make the interactions student questions entered into the database for more engaging and may help the student relate each course. In the combined database of the course content to areas outside of the Thermodynamics I and II, students have entered structured course content. In thermodynamics, the 3141 unique questions and provided associated first assignment given to students is to provide a responses for 1755 of them. The totals for several response for five to ten questions on any topic. of the courses represent a growing database This helps to build Anne\u2019s individual personality developed over several semesters. that relates to students and gives students a simple introduction to Anne and to the procedures for creating responses. When Anne is demonstrated Table 1: Courses Involved in the Engineering Content Training of Anne G. Neering. Course Title Instructor Database Questions Responses Measurements and Instrumentation Dr. Stephen Crown 1168 847 Thermodynamics I Dr. Stephen Crown 3141* 1755* Thermodynamics II Dr. Stephen Crown 3141 (*shared database) 1755* Mechanical Vibrations Dr. Arturo Fuentes 645 184 Manufacturing Processes Lab Dr. Rajiv Nambiar 139",
+      "importance_rank": 9
+    },
+    {
+      "document": "Doc2.pdf",
+      "page": 4,
+      "refined_text": "information Issue 2, April 2017. source without taking any physical efforts. [6] Rachit Kulkarni, Ankit Methwani, Nakul Pawar, Charmi \uf06c It is easily accessible and saving time and money also. Valecha, Pooja Shetty, \u201cCollege Chat-bot\u201d, International Journal of Advanced Research in Computer Engineering VI. CONCLUSIONS & Technology, Volume 6, Issue 4, April 2017. It is often impossible to get all the data on a single interface [7] Chaitrali S. Kulkarni, Amruta U. Bhavsar, Savita R. without the complications of going through multiple forms Pingale, Prof. Satish S. Kumbhar, \u201cBANK CHATBOT - and windows. The college chatbot aims to remove this An Intelligent Assistant System Using NLP and Machine difficulty by providing a common and user-friendly Learning\u201d, International Research Journal of Engineering interface to solve queries of college students and teachers. and Technology, Volume 4, Issue 5, May 2017. The purpose of a chatbot system is to simulate a [8] Yash Mehta, Shreya Sawkar, \u201cThe college chatbot\u201d, human conversation. Its architecture integrates a language International Journal of Computer Applications, Volume model and computational algorithm to emulate information 173 - No. 7, September 2017. online communication between a human and a computer [9] Prof. K. Bala, Mukesh Kumar, Sayali Hulawale, Sahil using natural language. Pandita, \u201cChat-Bot For College Management System The college student and employees can freely upload Using A.I\u201d, International Research Journal of Engineering their queries. The chatbot provides fast and efficient search and Technology, Volume 4, Issue 11, Nov 2017. for answers to the queries and gets the relevant links to their question. A background research took place, which included an overview of the conversation procedure and tries to find out the relevant keywords related to that query Copyright \u00a9 2018. Innovative Research Publications. All Rights Reserved 29 Electronic copy available at: https://ssrn.com/abstract=3531782",
+      "importance_rank": 10
+    }
+  ]
+}
